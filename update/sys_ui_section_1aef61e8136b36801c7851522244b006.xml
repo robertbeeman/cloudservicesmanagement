@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_section caption="" section_id="1aef61e8136b36801c7851522244b006" sys_domain="global" table="x_thimi_cloud_mgmt_cloud_services_job_status" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>0</position>
+            <sys_created_by>rbeeman</sys_created_by>
+            <sys_created_on>2017-07-03 06:46:30</sys_created_on>
+            <sys_id>e2e45c201377be801c7851522244b0d0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_thimi_cloud_mgmt_cloud_services_job_status" sys_domain="global" view="Default view">1aef61e8136b36801c7851522244b006</sys_ui_section>
+            <sys_updated_by>rbeeman</sys_updated_by>
+            <sys_updated_on>2017-07-03 06:46:30</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>number</element>
+            <position>1</position>
+            <sys_created_by>rbeeman</sys_created_by>
+            <sys_created_on>2017-07-03 06:46:30</sys_created_on>
+            <sys_id>6ae45c201377be801c7851522244b0d0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_thimi_cloud_mgmt_cloud_services_job_status" sys_domain="global" view="Default view">1aef61e8136b36801c7851522244b006</sys_ui_section>
+            <sys_updated_by>rbeeman</sys_updated_by>
+            <sys_updated_on>2017-07-03 06:46:30</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>job_id</element>
+            <position>2</position>
+            <sys_created_by>rbeeman</sys_created_by>
+            <sys_created_on>2017-07-03 06:46:30</sys_created_on>
+            <sys_id>eae45c201377be801c7851522244b0d0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_thimi_cloud_mgmt_cloud_services_job_status" sys_domain="global" view="Default view">1aef61e8136b36801c7851522244b006</sys_ui_section>
+            <sys_updated_by>rbeeman</sys_updated_by>
+            <sys_updated_on>2017-07-03 06:46:30</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>child_job_ids</element>
+            <position>3</position>
+            <sys_created_by>rbeeman</sys_created_by>
+            <sys_created_on>2017-07-03 06:46:30</sys_created_on>
+            <sys_id>6ee45c201377be801c7851522244b0d0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_thimi_cloud_mgmt_cloud_services_job_status" sys_domain="global" view="Default view">1aef61e8136b36801c7851522244b006</sys_ui_section>
+            <sys_updated_by>rbeeman</sys_updated_by>
+            <sys_updated_on>2017-07-03 06:46:30</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>4</position>
+            <sys_created_by>rbeeman</sys_created_by>
+            <sys_created_on>2017-07-03 06:46:30</sys_created_on>
+            <sys_id>eee45c201377be801c7851522244b0d0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_thimi_cloud_mgmt_cloud_services_job_status" sys_domain="global" view="Default view">1aef61e8136b36801c7851522244b006</sys_ui_section>
+            <sys_updated_by>rbeeman</sys_updated_by>
+            <sys_updated_on>2017-07-03 06:46:30</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>requested_item</element>
+            <position>5</position>
+            <sys_created_by>rbeeman</sys_created_by>
+            <sys_created_on>2017-07-03 06:46:30</sys_created_on>
+            <sys_id>62e45c201377be801c7851522244b0d1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_thimi_cloud_mgmt_cloud_services_job_status" sys_domain="global" view="Default view">1aef61e8136b36801c7851522244b006</sys_ui_section>
+            <sys_updated_by>rbeeman</sys_updated_by>
+            <sys_updated_on>2017-07-03 06:46:30</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>status</element>
+            <position>6</position>
+            <sys_created_by>rbeeman</sys_created_by>
+            <sys_created_on>2017-07-03 06:46:30</sys_created_on>
+            <sys_id>e2e45c201377be801c7851522244b0d1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_thimi_cloud_mgmt_cloud_services_job_status" sys_domain="global" view="Default view">1aef61e8136b36801c7851522244b006</sys_ui_section>
+            <sys_updated_by>rbeeman</sys_updated_by>
+            <sys_updated_on>2017-07-03 06:46:30</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>cloudcenter_deployment</element>
+            <position>7</position>
+            <sys_created_by>rbeeman</sys_created_by>
+            <sys_created_on>2017-07-03 06:46:30</sys_created_on>
+            <sys_id>66e45c201377be801c7851522244b0d1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_thimi_cloud_mgmt_cloud_services_job_status" sys_domain="global" view="Default view">1aef61e8136b36801c7851522244b006</sys_ui_section>
+            <sys_updated_by>rbeeman</sys_updated_by>
+            <sys_updated_on>2017-07-03 06:46:30</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>8</position>
+            <sys_created_by>rbeeman</sys_created_by>
+            <sys_created_on>2017-07-03 06:46:30</sys_created_on>
+            <sys_id>e6e45c201377be801c7851522244b0d1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_thimi_cloud_mgmt_cloud_services_job_status" sys_domain="global" view="Default view">1aef61e8136b36801c7851522244b006</sys_ui_section>
+            <sys_updated_by>rbeeman</sys_updated_by>
+            <sys_updated_on>2017-07-03 06:46:30</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_thimi_cloud_mgmt_cloud_services_job_status</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>rbeeman</sys_created_by>
+            <sys_created_on>2017-06-21 03:08:22</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_id>1aef61e8136b36801c7851522244b006</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_name>x_thimi_cloud_mgmt_cloud_services_job_status</sys_name>
+            <sys_overrides display_value="">global</sys_overrides>
+            <sys_package display_value="Cloud Services Management" source="x_thimi_cloud_mgmt">fd43e5bb0f7eba8062b6e64be1050eed</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Cloud Services Management">fd43e5bb0f7eba8062b6e64be1050eed</sys_scope>
+            <sys_update_name>sys_ui_section_1aef61e8136b36801c7851522244b006</sys_update_name>
+            <sys_updated_by>rbeeman</sys_updated_by>
+            <sys_updated_on>2017-07-03 06:46:30</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

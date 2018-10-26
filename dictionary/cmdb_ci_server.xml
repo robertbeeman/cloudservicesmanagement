@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element audit="true" extends="cmdb_ci_computer" label="Server" max_length="40" name="cmdb_ci_server" sizeclass="87" type="collection">
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Cloud" max_length="40" name="x_thimi_cloud_mgmt_cloud" type="string">
+            <choice>
+                <element label="Amazon Web Services" sequence="0" value="Amazon Web Services"/>
+                <element label="Google Cloud Platform" sequence="1" value="Google Cloud Platform"/>
+                <element label="On-Premise" sequence="2" value="On-Premise"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Zone" max_length="40" name="x_thimi_cloud_mgmt_zone" type="string"/>
+    </element>
+</database>

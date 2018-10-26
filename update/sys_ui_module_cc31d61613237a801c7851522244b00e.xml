@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_ui_module">
+    <sys_ui_module action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <application display_value="Cloud Services Management">dc4ca9e4134372401c7851522244b026</application>
+        <filter/>
+        <name>Cloud Services Server Namings</name>
+        <order/>
+        <path/>
+        <path_relative_to_root>false</path_relative_to_root>
+        <roles>x_thimi_cloud_mgmt.configuration_admin</roles>
+        <sys_class_name>sys_ui_module</sys_class_name>
+        <sys_created_by>rbeeman</sys_created_by>
+        <sys_created_on>2017-06-26 16:03:07</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>cc31d61613237a801c7851522244b00e</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Cloud Services Server Namings</sys_name>
+        <sys_package display_value="Cloud Services Management" source="x_thimi_cloud_mgmt">fd43e5bb0f7eba8062b6e64be1050eed</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Cloud Services Management">fd43e5bb0f7eba8062b6e64be1050eed</sys_scope>
+        <sys_update_name>sys_ui_module_cc31d61613237a801c7851522244b00e</sys_update_name>
+        <sys_updated_by>rbeeman</sys_updated_by>
+        <sys_updated_on>2017-07-14 18:02:33</sys_updated_on>
+        <table>x_thimi_cloud_mgmt_cloud_services_server_naming</table>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+    </sys_ui_module>
+</record_update>

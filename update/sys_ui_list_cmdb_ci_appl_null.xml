@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_list parent="" relationship="" sys_domain="global" table="cmdb_ci_appl" version="2" view="">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>name</element>
+            <list_id display_value="cmdb_ci_appl" element="NULL" name="cmdb_ci_appl" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">5fdf50820a0a3ca101fdbb9896b32e7f</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>michael.schreck</sys_created_by>
+            <sys_created_on>2011-02-26 02:49:54</sys_created_on>
+            <sys_id>5fdf50850a0a3ca1014f97cda0dd50ea</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>michael.schreck</sys_updated_by>
+            <sys_updated_on>2011-02-26 02:49:54</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>operational_status</element>
+            <list_id display_value="cmdb_ci_appl" element="NULL" name="cmdb_ci_appl" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">5fdf50820a0a3ca101fdbb9896b32e7f</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>michael.schreck</sys_created_by>
+            <sys_created_on>2011-02-26 02:49:54</sys_created_on>
+            <sys_id>5fdf50870a0a3ca101cacac054e18ab6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>michael.schreck</sys_updated_by>
+            <sys_updated_on>2011-02-26 02:49:54</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_primary_approver</element>
+            <list_id display_value="cmdb_ci_appl" element="NULL" name="cmdb_ci_appl" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">5fdf50820a0a3ca101fdbb9896b32e7f</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>michael.schreck</sys_created_by>
+            <sys_created_on>2011-02-26 02:49:54</sys_created_on>
+            <sys_id>5fdf50870a0a3ca100d63a2b65f37eda</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>michael.schreck</sys_updated_by>
+            <sys_updated_on>2011-02-26 02:49:54</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_secondary_approver</element>
+            <list_id display_value="cmdb_ci_appl" element="NULL" name="cmdb_ci_appl" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">5fdf50820a0a3ca101fdbb9896b32e7f</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>michael.schreck</sys_created_by>
+            <sys_created_on>2011-02-26 02:49:54</sys_created_on>
+            <sys_id>5fdf50880a0a3ca1005b6d1af26ccea7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>michael.schreck</sys_updated_by>
+            <sys_updated_on>2011-02-26 02:49:54</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_primary_customer_group</element>
+            <list_id display_value="cmdb_ci_appl" element="NULL" name="cmdb_ci_appl" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">5fdf50820a0a3ca101fdbb9896b32e7f</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>4</position>
+            <sum>false</sum>
+            <sys_created_by>michael.schreck</sys_created_by>
+            <sys_created_on>2011-02-26 02:49:54</sys_created_on>
+            <sys_id>5fdf50890a0a3ca10059f7815d6ae805</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>michael.schreck</sys_updated_by>
+            <sys_updated_on>2011-02-26 02:49:54</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_distribution_list</element>
+            <list_id display_value="cmdb_ci_appl" element="NULL" name="cmdb_ci_appl" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">5fdf50820a0a3ca101fdbb9896b32e7f</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>5</position>
+            <sum>false</sum>
+            <sys_created_by>michael.schreck</sys_created_by>
+            <sys_created_on>2011-02-26 02:49:54</sys_created_on>
+            <sys_id>5fdf508a0a0a3ca1002c090560b03b86</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>michael.schreck</sys_updated_by>
+            <sys_updated_on>2011-02-26 02:49:54</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_approval_method</element>
+            <list_id display_value="cmdb_ci_appl" element="NULL" name="cmdb_ci_appl" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">5fdf50820a0a3ca101fdbb9896b32e7f</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>6</position>
+            <sum>false</sum>
+            <sys_created_by>michael.schreck</sys_created_by>
+            <sys_created_on>2011-02-26 02:49:54</sys_created_on>
+            <sys_id>5fdf508a0a0a3ca1011d04976263e8e7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>michael.schreck</sys_updated_by>
+            <sys_updated_on>2011-02-26 02:49:54</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_end_user_can_request</element>
+            <list_id display_value="cmdb_ci_appl" element="NULL" name="cmdb_ci_appl" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">5fdf50820a0a3ca101fdbb9896b32e7f</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>7</position>
+            <sum>false</sum>
+            <sys_created_by>michael.schreck</sys_created_by>
+            <sys_created_on>2011-02-26 02:49:54</sys_created_on>
+            <sys_id>5fdf508b0a0a3ca1011d2913e35f97f3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>michael.schreck</sys_updated_by>
+            <sys_updated_on>2011-02-26 02:49:54</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>cmdb_ci_appl</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>rbeeman</sys_created_by>
+            <sys_created_on>2017-11-21 22:35:27</sys_created_on>
+            <sys_customer_update>true</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_id>0e46b18adba60f004d181aac0b961931</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>cmdb_ci_appl</sys_name>
+            <sys_package display_value="Cloud Services Management" source="x_thimi_cloud_mgmt">fd43e5bb0f7eba8062b6e64be1050eed</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Cloud Services Management">fd43e5bb0f7eba8062b6e64be1050eed</sys_scope>
+            <sys_update_name>sys_ui_list_cmdb_ci_appl_null</sys_update_name>
+            <sys_updated_by>rbeeman</sys_updated_by>
+            <sys_updated_on>2017-11-21 22:35:27</sys_updated_on>
+            <sys_user display_value="Robert Beeman (rbeeman)">434c5b3e0a0a3c9e015acdb3e7f94f96</sys_user>
+            <u_notes/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>

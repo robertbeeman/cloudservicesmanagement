@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_section caption="" section_id="8a4ac761138bf2401c7851522244b0cd" sys_domain="global" table="x_thimi_cloud_mgmt_cloud_services_choices" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>0</position>
+            <sys_created_by>rbeeman</sys_created_by>
+            <sys_created_on>2017-06-20 06:34:11</sys_created_on>
+            <sys_id>e76591d813aff2801c7851522244b0ed</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_thimi_cloud_mgmt_cloud_services_choices" sys_domain="global" view="Default view">8a4ac761138bf2401c7851522244b0cd</sys_ui_section>
+            <sys_updated_by>rbeeman</sys_updated_by>
+            <sys_updated_on>2017-06-20 06:34:11</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>catalog_item</element>
+            <position>1</position>
+            <sys_created_by>rbeeman</sys_created_by>
+            <sys_created_on>2017-06-20 06:34:11</sys_created_on>
+            <sys_id>6b6591d813aff2801c7851522244b0ed</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_thimi_cloud_mgmt_cloud_services_choices" sys_domain="global" view="Default view">8a4ac761138bf2401c7851522244b0cd</sys_ui_section>
+            <sys_updated_by>rbeeman</sys_updated_by>
+            <sys_updated_on>2017-06-20 06:34:11</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>variable</element>
+            <position>2</position>
+            <sys_created_by>rbeeman</sys_created_by>
+            <sys_created_on>2017-06-20 06:34:11</sys_created_on>
+            <sys_id>eb6591d813aff2801c7851522244b0ed</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_thimi_cloud_mgmt_cloud_services_choices" sys_domain="global" view="Default view">8a4ac761138bf2401c7851522244b0cd</sys_ui_section>
+            <sys_updated_by>rbeeman</sys_updated_by>
+            <sys_updated_on>2017-06-20 06:34:11</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>sequence</element>
+            <position>3</position>
+            <sys_created_by>rbeeman</sys_created_by>
+            <sys_created_on>2017-06-20 06:34:11</sys_created_on>
+            <sys_id>6f6591d813aff2801c7851522244b0ed</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_thimi_cloud_mgmt_cloud_services_choices" sys_domain="global" view="Default view">8a4ac761138bf2401c7851522244b0cd</sys_ui_section>
+            <sys_updated_by>rbeeman</sys_updated_by>
+            <sys_updated_on>2017-06-20 06:34:11</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>4</position>
+            <sys_created_by>rbeeman</sys_created_by>
+            <sys_created_on>2017-06-20 06:34:11</sys_created_on>
+            <sys_id>ef6591d813aff2801c7851522244b0ed</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_thimi_cloud_mgmt_cloud_services_choices" sys_domain="global" view="Default view">8a4ac761138bf2401c7851522244b0cd</sys_ui_section>
+            <sys_updated_by>rbeeman</sys_updated_by>
+            <sys_updated_on>2017-06-20 06:34:11</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>active</element>
+            <position>5</position>
+            <sys_created_by>rbeeman</sys_created_by>
+            <sys_created_on>2017-06-20 06:34:11</sys_created_on>
+            <sys_id>636591d813aff2801c7851522244b0ee</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_thimi_cloud_mgmt_cloud_services_choices" sys_domain="global" view="Default view">8a4ac761138bf2401c7851522244b0cd</sys_ui_section>
+            <sys_updated_by>rbeeman</sys_updated_by>
+            <sys_updated_on>2017-06-20 06:34:11</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>price</element>
+            <position>6</position>
+            <sys_created_by>rbeeman</sys_created_by>
+            <sys_created_on>2017-06-20 06:34:11</sys_created_on>
+            <sys_id>e36591d813aff2801c7851522244b0ee</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_thimi_cloud_mgmt_cloud_services_choices" sys_domain="global" view="Default view">8a4ac761138bf2401c7851522244b0cd</sys_ui_section>
+            <sys_updated_by>rbeeman</sys_updated_by>
+            <sys_updated_on>2017-06-20 06:34:11</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>recurring_price</element>
+            <position>7</position>
+            <sys_created_by>rbeeman</sys_created_by>
+            <sys_created_on>2017-06-20 06:34:11</sys_created_on>
+            <sys_id>676591d813aff2801c7851522244b0ee</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_thimi_cloud_mgmt_cloud_services_choices" sys_domain="global" view="Default view">8a4ac761138bf2401c7851522244b0cd</sys_ui_section>
+            <sys_updated_by>rbeeman</sys_updated_by>
+            <sys_updated_on>2017-06-20 06:34:11</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>8</position>
+            <sys_created_by>rbeeman</sys_created_by>
+            <sys_created_on>2017-06-20 06:34:11</sys_created_on>
+            <sys_id>e76591d813aff2801c7851522244b0ee</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_thimi_cloud_mgmt_cloud_services_choices" sys_domain="global" view="Default view">8a4ac761138bf2401c7851522244b0cd</sys_ui_section>
+            <sys_updated_by>rbeeman</sys_updated_by>
+            <sys_updated_on>2017-06-20 06:34:11</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>dependent_value</element>
+            <position>9</position>
+            <sys_created_by>rbeeman</sys_created_by>
+            <sys_created_on>2017-06-20 06:34:11</sys_created_on>
+            <sys_id>6b6591d813aff2801c7851522244b0ee</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_thimi_cloud_mgmt_cloud_services_choices" sys_domain="global" view="Default view">8a4ac761138bf2401c7851522244b0cd</sys_ui_section>
+            <sys_updated_by>rbeeman</sys_updated_by>
+            <sys_updated_on>2017-06-20 06:34:11</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>choice</element>
+            <position>10</position>
+            <sys_created_by>rbeeman</sys_created_by>
+            <sys_created_on>2017-06-20 06:34:11</sys_created_on>
+            <sys_id>eb6591d813aff2801c7851522244b0ee</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_thimi_cloud_mgmt_cloud_services_choices" sys_domain="global" view="Default view">8a4ac761138bf2401c7851522244b0cd</sys_ui_section>
+            <sys_updated_by>rbeeman</sys_updated_by>
+            <sys_updated_on>2017-06-20 06:34:11</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>value</element>
+            <position>11</position>
+            <sys_created_by>rbeeman</sys_created_by>
+            <sys_created_on>2017-06-20 06:34:11</sys_created_on>
+            <sys_id>6f6591d813aff2801c7851522244b0ee</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_thimi_cloud_mgmt_cloud_services_choices" sys_domain="global" view="Default view">8a4ac761138bf2401c7851522244b0cd</sys_ui_section>
+            <sys_updated_by>rbeeman</sys_updated_by>
+            <sys_updated_on>2017-06-20 06:34:11</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>description</element>
+            <position>12</position>
+            <sys_created_by>rbeeman</sys_created_by>
+            <sys_created_on>2017-06-20 06:34:11</sys_created_on>
+            <sys_id>ef6591d813aff2801c7851522244b0ee</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_thimi_cloud_mgmt_cloud_services_choices" sys_domain="global" view="Default view">8a4ac761138bf2401c7851522244b0cd</sys_ui_section>
+            <sys_updated_by>rbeeman</sys_updated_by>
+            <sys_updated_on>2017-06-20 06:34:11</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_thimi_cloud_mgmt_cloud_services_choices</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>rbeeman</sys_created_by>
+            <sys_created_on>2017-05-30 15:45:44</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_id>8a4ac761138bf2401c7851522244b0cd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_thimi_cloud_mgmt_cloud_services_choices</sys_name>
+            <sys_overrides display_value="">global</sys_overrides>
+            <sys_package display_value="Cloud Services Management" source="x_thimi_cloud_mgmt">fd43e5bb0f7eba8062b6e64be1050eed</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Cloud Services Management">fd43e5bb0f7eba8062b6e64be1050eed</sys_scope>
+            <sys_update_name>sys_ui_section_8a4ac761138bf2401c7851522244b0cd</sys_update_name>
+            <sys_updated_by>rbeeman</sys_updated_by>
+            <sys_updated_on>2017-05-30 15:45:44</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

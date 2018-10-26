@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="submitjob_response" label="SubmitJob Response" language="en" table="x_thimi_cloud_mgmt_cloud_services_job_status">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>submitjob_response</element>
+            <help/>
+            <hint/>
+            <label>SubmitJob Response</label>
+            <language>en</language>
+            <name>x_thimi_cloud_mgmt_cloud_services_job_status</name>
+            <plural>SubmitJob Responses</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>rbeeman</sys_created_by>
+            <sys_created_on>2017-06-27 18:29:23</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>144c7bae13af7a801c7851522244b08e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>SubmitJob Response</sys_name>
+            <sys_package display_value="Cloud Services Management" source="x_thimi_cloud_mgmt">fd43e5bb0f7eba8062b6e64be1050eed</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Cloud Services Management">fd43e5bb0f7eba8062b6e64be1050eed</sys_scope>
+            <sys_update_name>sys_documentation_x_thimi_cloud_mgmt_cloud_services_job_status_submitjob_response_en</sys_update_name>
+            <sys_updated_by>rbeeman</sys_updated_by>
+            <sys_updated_on>2017-06-27 18:29:23</sys_updated_on>
+            <u_notes/>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

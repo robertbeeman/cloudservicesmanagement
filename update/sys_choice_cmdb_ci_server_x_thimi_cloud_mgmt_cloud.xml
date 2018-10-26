@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="x_thimi_cloud_mgmt_cloud" table="cmdb_ci_server" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>x_thimi_cloud_mgmt_cloud</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Amazon Web Services</label>
+            <language>en</language>
+            <name>cmdb_ci_server</name>
+            <sequence>0</sequence>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2017-11-21 22:25:28</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>8c04f102dba60f004d181aac0b96197b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2017-11-21 22:25:28</sys_updated_on>
+            <u_notes/>
+            <value>Amazon Web Services</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>x_thimi_cloud_mgmt_cloud</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Google Cloud Platform</label>
+            <language>en</language>
+            <name>cmdb_ci_server</name>
+            <sequence>1</sequence>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2017-11-21 22:25:28</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>cc04f102dba60f004d181aac0b96197b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2017-11-21 22:25:28</sys_updated_on>
+            <u_notes/>
+            <value>Google Cloud Platform</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>x_thimi_cloud_mgmt_cloud</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>On-Premise</label>
+            <language>en</language>
+            <name>cmdb_ci_server</name>
+            <sequence>2</sequence>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2017-11-21 22:25:28</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>0004f102dba60f004d181aac0b96197c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2017-11-21 22:25:28</sys_updated_on>
+            <u_notes/>
+            <value>On-Premise</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>x_thimi_cloud_mgmt_cloud</element>
+            <name>cmdb_ci_server</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2017-11-21 22:25:28</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>0404f102dba60f004d181aac0b96197c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_thimi_cloud_mgmt_cloud</sys_name>
+            <sys_package display_value="Cloud Services Management" source="x_thimi_cloud_mgmt">fd43e5bb0f7eba8062b6e64be1050eed</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Cloud Services Management">fd43e5bb0f7eba8062b6e64be1050eed</sys_scope>
+            <sys_update_name>sys_choice_cmdb_ci_server_x_thimi_cloud_mgmt_cloud</sys_update_name>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2017-11-21 22:25:28</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

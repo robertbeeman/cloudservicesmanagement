@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_rest_message_fn">
+    <sys_rest_message_fn action="INSERT_OR_UPDATE">
+        <authentication_type>inherit_from_parent</authentication_type>
+        <basic_auth_password/>
+        <basic_auth_profile/>
+        <basic_auth_user/>
+        <content/>
+        <function_name>GetNodeDetails</function_name>
+        <http_method>get</http_method>
+        <lock>false</lock>
+        <oauth2_profile/>
+        <protocol_name/>
+        <qualified_name>CloudCenter [ GetNodeDetails ]</qualified_name>
+        <rest_endpoint>https://ccm.irvinecompany.com:443/v2/jobs/${ChildjobId}?includeNodeDetails=true&amp;includeNodeCostDetails=true&amp;includeTaskDetails=true</rest_endpoint>
+        <rest_message display_value="CloudCenter">dafa9aad0f4fb20062b6e64be1050e0b</rest_message>
+        <sys_class_name>sys_rest_message_fn</sys_class_name>
+        <sys_created_by>rbeeman</sys_created_by>
+        <sys_created_on>2017-06-27 18:49:39</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>7fb0cc3213ef7a801c7851522244b0bf</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>GetNodeDetails</sys_name>
+        <sys_package display_value="Cloud Services Management" source="x_thimi_cloud_mgmt">fd43e5bb0f7eba8062b6e64be1050eed</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Cloud Services Management">fd43e5bb0f7eba8062b6e64be1050eed</sys_scope>
+        <sys_update_name>sys_rest_message_fn_7fb0cc3213ef7a801c7851522244b0bf</sys_update_name>
+        <sys_updated_by>rbeeman</sys_updated_by>
+        <sys_updated_on>2018-02-14 18:37:10</sys_updated_on>
+        <use_basic_auth>false</use_basic_auth>
+        <use_mid_server display_value="MIDServer_Orchestration-01-x64">bfddc9e4e113110038a0859d605520fc</use_mid_server>
+        <use_mutual_auth>false</use_mutual_auth>
+    </sys_rest_message_fn>
+</record_update>

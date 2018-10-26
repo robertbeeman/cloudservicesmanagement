@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="INSERT_OR_UPDATE">
+        <catalog_item display_value="Cloud Server or Service">3e04fd770fbeba8062b6e64be1050ee3</catalog_item>
+        <catalog_variable>IO:f9f6b8b113cff2401c7851522244b0a4</catalog_variable>
+        <disabled>ignore</disabled>
+        <field/>
+        <mandatory>true</mandatory>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>rbeeman</sys_created_by>
+        <sys_created_on>2017-05-30 23:49:48</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>9a09b47513cff2401c7851522244b033</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>server_location</sys_name>
+        <sys_package display_value="Cloud Services Management" source="x_thimi_cloud_mgmt">fd43e5bb0f7eba8062b6e64be1050eed</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Cloud Services Management">fd43e5bb0f7eba8062b6e64be1050eed</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_9a09b47513cff2401c7851522244b033</sys_update_name>
+        <sys_updated_by>rbeeman</sys_updated_by>
+        <sys_updated_on>2017-05-30 23:49:48</sys_updated_on>
+        <table/>
+        <ui_policy display_value="onChange Type Servers">e5a9cb9413cb32401c7851522244b039</ui_policy>
+        <variable>server_location</variable>
+        <variable_set/>
+        <visible>true</visible>
+    </catalog_ui_policy_action>
+</record_update>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_user_role">
+    <sys_user_role action="INSERT_OR_UPDATE">
+        <assignable_by/>
+        <can_delegate>true</can_delegate>
+        <description>Access to Cloud Server or Service catalog item</description>
+        <elevated_privilege>false</elevated_privilege>
+        <encryption_context/>
+        <grantable>true</grantable>
+        <includes_roles/>
+        <name>x_thimi_cloud_mgmt.user_access</name>
+        <suffix>user_access</suffix>
+        <sys_class_name>sys_user_role</sys_class_name>
+        <sys_created_by>rbeeman</sys_created_by>
+        <sys_created_on>2018-10-05 16:01:06</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>6c45025c134da7c01c7851522244b056</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_thimi_cloud_mgmt.user_access</sys_name>
+        <sys_package display_value="Cloud Services Management" source="x_thimi_cloud_mgmt">fd43e5bb0f7eba8062b6e64be1050eed</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Cloud Services Management">fd43e5bb0f7eba8062b6e64be1050eed</sys_scope>
+        <sys_update_name>sys_user_role_6c45025c134da7c01c7851522244b056</sys_update_name>
+        <sys_updated_by>rbeeman</sys_updated_by>
+        <sys_updated_on>2018-10-05 16:01:06</sys_updated_on>
+        <u_note/>
+    </sys_user_role>
+</record_update>

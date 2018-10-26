@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="" label="Cloud Services Job Status" language="en" table="x_thimi_cloud_mgmt_cloud_services_job_status">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element/>
+            <help/>
+            <hint/>
+            <label>Cloud Services Job Status</label>
+            <language>en</language>
+            <name>x_thimi_cloud_mgmt_cloud_services_job_status</name>
+            <plural>Cloud Services Job Status</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>rbeeman</sys_created_by>
+            <sys_created_on>2017-06-21 03:07:27</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>c1bf29a8136b36801c7851522244b005</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Cloud Services Job Status</sys_name>
+            <sys_package display_value="Cloud Services Management" source="x_thimi_cloud_mgmt">fd43e5bb0f7eba8062b6e64be1050eed</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Cloud Services Management">fd43e5bb0f7eba8062b6e64be1050eed</sys_scope>
+            <sys_update_name>sys_documentation_x_thimi_cloud_mgmt_cloud_services_job_status__en</sys_update_name>
+            <sys_updated_by>rbeeman</sys_updated_by>
+            <sys_updated_on>2017-06-21 03:07:27</sys_updated_on>
+            <u_notes/>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

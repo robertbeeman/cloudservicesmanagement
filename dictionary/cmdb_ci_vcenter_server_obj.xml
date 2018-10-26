@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="cmdb_ci_virtualization_server" label="VMware vCenter Server Object" max_length="40" name="cmdb_ci_vcenter_server_obj" type="collection">
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Cloud mgmt cloud" max_length="40" name="x_thimi_cloud_mgmt_cloud" type="string">
+            <choice/>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Cloud mgmt zone" max_length="40" name="x_thimi_cloud_mgmt_zone" type="string"/>
+    </element>
+</database>

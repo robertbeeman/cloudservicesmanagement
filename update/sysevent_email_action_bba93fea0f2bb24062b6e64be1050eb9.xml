@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sysevent_email_action">
+    <sysevent_email_action action="INSERT_OR_UPDATE">
+        <action_insert>false</action_insert>
+        <action_update>false</action_update>
+        <active>true</active>
+        <advanced_condition/>
+        <affected_field_on_event/>
+        <category display_value="Uncategorized" name="Uncategorized">c97d83137f4432005f58108c3ffa917a</category>
+        <collection>sysapproval_approver</collection>
+        <condition table="sysapproval_approver">sysapproval.ref_sc_req_item.cat_item=3e04fd770fbeba8062b6e64be1050ee3^EQ<item display_table="sc_cat_item" display_value="Cloud Server or Service" endquery="false" field="sysapproval.ref_sc_req_item.cat_item" goto="false" newquery="false" operator="=" or="false" value="3e04fd770fbeba8062b6e64be1050ee3"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <content_type>text/html</content_type>
+        <description>Includes all pertinent information in the Cloud Services request for approval.</description>
+        <event_name>approval.inserted</event_name>
+        <event_parm_1>false</event_parm_1>
+        <event_parm_2>false</event_parm_2>
+        <exclude_delegates>false</exclude_delegates>
+        <force_delivery>false</force_delivery>
+        <from/>
+        <generation_type>event</generation_type>
+        <group/>
+        <group_field/>
+        <importance/>
+        <include_attachments>false</include_attachments>
+        <item>event.parm1</item>
+        <item_table/>
+        <list/>
+        <list_field/>
+        <mandatory>false</mandatory>
+        <message/>
+        <message_html><![CDATA[<p>${mail_script:Cloud Services Approval Request Script}</p>
+<p>&nbsp;</p>
+<p>Thank you,</p>
+<p><br />IT Service Desk<br />(949) 720-4357</p>]]></message_html>
+        <message_list/>
+        <message_text/>
+        <name>Cloud Services Approval Request</name>
+        <omit_watermark>false</omit_watermark>
+        <order/>
+        <push_message_only>false</push_message_only>
+        <recipient_fields/>
+        <recipient_groups name="Cloud Catalog Item Approvers">887e300f0f63f24062b6e64be1050eb3</recipient_groups>
+        <recipient_users/>
+        <reply_to/>
+        <send_self>true</send_self>
+        <sms_alternate/>
+        <style/>
+        <subject>${sysapproval.variables.cloud} Approval Request (${sysapproval})</subject>
+        <subscribable>false</subscribable>
+        <sys_class_name>sysevent_email_action</sys_class_name>
+        <sys_created_by>acervenka</sys_created_by>
+        <sys_created_on>2017-06-27 18:23:32</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>bba93fea0f2bb24062b6e64be1050eb9</sys_id>
+        <sys_mod_count>14</sys_mod_count>
+        <sys_name>Cloud Services Approval Request</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Cloud Services Management" source="x_thimi_cloud_mgmt">fd43e5bb0f7eba8062b6e64be1050eed</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Cloud Services Management">fd43e5bb0f7eba8062b6e64be1050eed</sys_scope>
+        <sys_update_name>sysevent_email_action_bba93fea0f2bb24062b6e64be1050eb9</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2017-11-27 03:35:37</sys_updated_on>
+        <sys_version>2</sys_version>
+        <template/>
+        <type>email</type>
+        <u_notes/>
+        <user/>
+        <user_field/>
+        <weight>0</weight>
+    </sysevent_email_action>
+</record_update>

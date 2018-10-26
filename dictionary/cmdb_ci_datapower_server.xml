@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element audit="true" extends="cmdb_ci_server" label="Data Power Hosting Server" max_length="40" name="cmdb_ci_datapower_server" type="collection">
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Cloud mgmt cloud" max_length="40" name="x_thimi_cloud_mgmt_cloud" type="string">
+            <choice/>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Cloud mgmt zone" max_length="40" name="x_thimi_cloud_mgmt_zone" type="string"/>
+    </element>
+</database>

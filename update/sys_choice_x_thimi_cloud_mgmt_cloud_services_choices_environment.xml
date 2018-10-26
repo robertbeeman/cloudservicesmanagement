@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="environment" table="x_thimi_cloud_mgmt_cloud_services_choices" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>environment</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Production</label>
+            <language>en</language>
+            <name>x_thimi_cloud_mgmt_cloud_services_choices</name>
+            <sequence>0</sequence>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2017-11-21 22:25:25</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>4ff3b102dba60f004d181aac0b961922</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2017-11-21 22:25:25</sys_updated_on>
+            <u_notes/>
+            <value>Production</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>environment</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Sub-Production</label>
+            <language>en</language>
+            <name>x_thimi_cloud_mgmt_cloud_services_choices</name>
+            <sequence>1</sequence>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2017-11-21 22:25:25</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>8ff3b102dba60f004d181aac0b961922</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2017-11-21 22:25:25</sys_updated_on>
+            <u_notes/>
+            <value>Sub-Production</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>environment</element>
+            <name>x_thimi_cloud_mgmt_cloud_services_choices</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2017-11-21 22:25:25</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>83f3b102dba60f004d181aac0b961923</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>environment</sys_name>
+            <sys_package display_value="Cloud Services Management" source="x_thimi_cloud_mgmt">fd43e5bb0f7eba8062b6e64be1050eed</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Cloud Services Management">fd43e5bb0f7eba8062b6e64be1050eed</sys_scope>
+            <sys_update_name>sys_choice_x_thimi_cloud_mgmt_cloud_services_choices_environment</sys_update_name>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2017-11-21 22:25:25</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

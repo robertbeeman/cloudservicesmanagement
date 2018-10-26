@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_ui_application">
+    <sys_ui_application action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <hint/>
+        <name>Cloud Services Management</name>
+        <order/>
+        <roles>x_thimi_cloud_mgmt.configuration_admin</roles>
+        <sys_class_name>sys_ui_application</sys_class_name>
+        <sys_created_by>rbeeman</sys_created_by>
+        <sys_created_on>2017-05-27 06:21:00</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>dc4ca9e4134372401c7851522244b026</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Cloud Services Management</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Cloud Services Management" source="x_thimi_cloud_mgmt">fd43e5bb0f7eba8062b6e64be1050eed</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Cloud Services Management">fd43e5bb0f7eba8062b6e64be1050eed</sys_scope>
+        <sys_update_name>sys_ui_application_dc4ca9e4134372401c7851522244b026</sys_update_name>
+        <sys_updated_by>rbeeman</sys_updated_by>
+        <sys_updated_on>2017-07-14 18:02:56</sys_updated_on>
+    </sys_ui_application>
+</record_update>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_script_email">
+    <sys_script_email action="INSERT_OR_UPDATE">
+        <name>Cloud Services Approval Request Script</name>
+        <new_lines_to_html>true</new_lines_to_html>
+        <script><![CDATA[var gr = new GlideRecord('sc_req_item');
+gr.addQuery('sys_id', current.sysapproval);
+gr.query();
+if (gr.next()) {
+    template.print("Requested for: " + gr.request.requested_for.name + " (" + gr.request.requested_for.title + ")" + "\n");
+	template.print("Technical Contact: " + gr.variables.technical_contact.name.getDisplayValue() + " @ " + gr.variables.technical_contact.phone.getDisplayValue());
+
+    var mailToAddress = gs.getProperty('glide.email.user');
+    var instanceName = gs.getProperty('instance_name');
+    template.print('<hr color="#6D7B8D" />');
+    template.print('\n\n<a href="mailto:' + mailToAddress + '?subject=Re%3A${sysapproval}%20-%20approve&body=%0D%0A%0D%0A%0D%0A-----------------------------------%0D%0AOptional:%20Please%20provide%20any%20additional%20information%20above%20the%20line.%20Do%20not%20modify%20any%20content%20below%20the%20line.%0D%0A${watermark}"><img src="https://' + instanceName + '.service-now.com/Approve.pngx" alt="Click here to approve ${sysapproval}" /></a>\n\n');
+    template.print('<a href="mailto:' + mailToAddress + '?subject=Re%3A${sysapproval}%20-%20reject&body=%0D%0A%0D%0A%0D%0A-----------------------------------%0D%0AOptional:%20Please%20provide%20any%20additional%20information%20above%20the%20line.%20Do%20not%20modify%20any%20content%20below%20the%20line.%0D%0A${watermark}"><img src="https://' + instanceName + '.service-now.com/Deny.pngx" alt="Click here to deny ${sysapproval}" /></a>\n\n');
+    template.print('<hr color="#6D7B8D" />');    
+    template.print('Additional Information:\n');
+    
+    if (gr.variables.request_type.getDisplayValue() == 'Cloud Provided Services') { // Sys_ID for 'Other Hardware'
+        template.print("Service: " + gr.variables.requested_services.getDisplayValue() + "\n");
+    } else {
+    template.print("Application: " + gr.variables.application.getDisplayValue() + "\n");
+    template.print("Cloud: " + gr.variables.cloud.getDisplayValue() + "\n");
+	template.print("Environment: " + gr.variables.environment.getDisplayValue() + "\n");
+	template.print("Server Configuration: " + gr.variables.server_configuration.getDisplayValue() + "\n");	
+    template.print("Operating System: " + gr.variables.operating_system.getDisplayValue() + "\n");
+    template.print("Support Group: " + gr.variables.support_group.getDisplayValue() + "\n");
+
+    template.print("End Date: " + gr.variables.end_date.getDisplayValue() + "\n");
+    template.print("System Required Backup: " + gr.variables.backup_required.getDisplayValue() + "\n");
+    template.print("Externally Facing Server: " + gr.variables.externally_facing.getDisplayValue() + "\n");
+    template.print("SSO Required: " + gr.variables.sso_required.getDisplayValue() + "\n");
+    template.print("Published to Citrix: " + gr.variables.published_to_citrix.getDisplayValue() + "\n");
+    template.print("Special Bandwidth Req: " + gr.variables.bandwidth_reqs.getDisplayValue() + "\n");
+    }
+    
+    template.print("Project Code: " + gr.variables.project_code.getDisplayValue() + "\n");
+    template.print("Access and Level of Access: " + gr.variables.user_access.getDisplayValue() + "\n"); 
+    template.print("Business Justification: " + gr.variables.business_justification.getDisplayValue() + "\n");
+	template.print("\n");
+
+}
+
+var redirectURL = gs.getProperty("glide.email.override.url.popout");
+var instanceURL = redirectURL + "it_service_desk/home.do"; //**converts to cms link
+var html = "<a href=" + instanceURL + ">IT Service Portal</a>";
+template.print("If you would like to see all of your pending approval requests, log onto the " + html + ".");]]></script>
+        <sys_class_name>sys_script_email</sys_class_name>
+        <sys_created_by>acervenka</sys_created_by>
+        <sys_created_on>2017-06-28 15:51:26</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>ecdd387a0fabb24062b6e64be1050eba</sys_id>
+        <sys_mod_count>20</sys_mod_count>
+        <sys_name>Cloud Services Approval Request Script</sys_name>
+        <sys_package display_value="Cloud Services Management" source="x_thimi_cloud_mgmt">fd43e5bb0f7eba8062b6e64be1050eed</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Cloud Services Management">fd43e5bb0f7eba8062b6e64be1050eed</sys_scope>
+        <sys_update_name>sys_script_email_ecdd387a0fabb24062b6e64be1050eba</sys_update_name>
+        <sys_updated_by>acervenka</sys_updated_by>
+        <sys_updated_on>2017-07-12 17:44:42</sys_updated_on>
+    </sys_script_email>
+</record_update>

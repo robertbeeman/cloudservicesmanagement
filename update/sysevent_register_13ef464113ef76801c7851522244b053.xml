@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sysevent_register">
+    <sysevent_register action="INSERT_OR_UPDATE">
+        <description/>
+        <event_name>x_thimi_cloud_mgmt.primary_support_notic</event_name>
+        <fired_by>Cloud Services Request Workflow</fired_by>
+        <queue/>
+        <suffix>primary_support_notice</suffix>
+        <sys_class_name>sysevent_register</sys_class_name>
+        <sys_created_by>rbeeman</sys_created_by>
+        <sys_created_on>2017-06-22 18:45:12</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>13ef464113ef76801c7851522244b053</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_thimi_cloud_mgmt.primary_support_notic</sys_name>
+        <sys_package display_value="Cloud Services Management" source="x_thimi_cloud_mgmt">fd43e5bb0f7eba8062b6e64be1050eed</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Cloud Services Management">fd43e5bb0f7eba8062b6e64be1050eed</sys_scope>
+        <sys_update_name>sysevent_register_13ef464113ef76801c7851522244b053</sys_update_name>
+        <sys_updated_by>rbeeman</sys_updated_by>
+        <sys_updated_on>2017-06-22 18:45:12</sys_updated_on>
+        <table/>
+    </sysevent_register>
+</record_update>

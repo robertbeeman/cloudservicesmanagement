@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_ws_operation">
+    <sys_ws_operation action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <consumes>application/json</consumes>
+        <consumes_customized>true</consumes_customized>
+        <default_operation_uri/>
+        <enforce_acl>176146f0132776801c7851522244b028</enforce_acl>
+        <http_method>POST</http_method>
+        <name>Job Status</name>
+        <operation_script><![CDATA[(function process(/*RESTAPIRequest*/ request, /*RESTAPIResponse*/ response) {
+	
+	var requestObj = request.body.data;
+	
+	var jobId = requestObj.job_id,
+		status = requestObj.status;
+	
+	if (jobId && status){
+		
+		var js = new GlideRecord('x_thimi_cloud_mgmt_cloud_services_job_status');
+		js.addQuery('job_id', jobId);
+		js.query();
+		if (js.next()){
+			js.status = status;
+			js.update();
+		} else {
+			response.setError(new sn_ws_err.BadRequestError('Unable to find job_id record'));
+		}
+		
+	} else {
+		response.setError(new sn_ws_err.BadRequestError('Missing job_id or status'));
+	}
+	
+})(request, response);]]></operation_script>
+        <operation_uri>/api/x_thimi_cloud_mgmt/cloudcenter/job_status</operation_uri>
+        <produces>application/json,application/xml,text/xml</produces>
+        <produces_customized>false</produces_customized>
+        <relative_path>/job_status</relative_path>
+        <request_example/>
+        <requires_acl_authorization>true</requires_acl_authorization>
+        <requires_authentication>true</requires_authentication>
+        <short_description/>
+        <sys_class_name>sys_ws_operation</sys_class_name>
+        <sys_created_by>rbeeman</sys_created_by>
+        <sys_created_on>2017-06-21 18:00:24</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>ed0cfcf4136376801c7851522244b085</sys_id>
+        <sys_mod_count>28</sys_mod_count>
+        <sys_name>Job Status</sys_name>
+        <sys_package display_value="Cloud Services Management" source="x_thimi_cloud_mgmt">fd43e5bb0f7eba8062b6e64be1050eed</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Cloud Services Management">fd43e5bb0f7eba8062b6e64be1050eed</sys_scope>
+        <sys_update_name>sys_ws_operation_ed0cfcf4136376801c7851522244b085</sys_update_name>
+        <sys_updated_by>rbeeman</sys_updated_by>
+        <sys_updated_on>2017-06-22 17:48:53</sys_updated_on>
+        <web_service_definition display_value="CloudCenter">1dc8b474136376801c7851522244b029</web_service_definition>
+        <web_service_version/>
+    </sys_ws_operation>
+</record_update>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="cmdb_ci_server_hardware" label="Network Appliance Hardware" max_length="40" name="cmdb_ci_net_app_server" type="collection">
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Cloud mgmt cloud" max_length="40" name="x_thimi_cloud_mgmt_cloud" type="string">
+            <choice/>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Cloud mgmt zone" max_length="40" name="x_thimi_cloud_mgmt_zone" type="string"/>
+    </element>
+</database>

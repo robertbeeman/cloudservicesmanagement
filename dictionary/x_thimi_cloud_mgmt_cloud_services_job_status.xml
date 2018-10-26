@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Cloud Services Job Status" max_length="40" name="x_thimi_cloud_mgmt_cloud_services_job_status" type="collection">
+        <element label="Child Job IDs" max_length="40" name="child_job_ids" type="string"/>
+        <element label="CloudCenter Deployment" max_length="1024" name="cloudcenter_deployment" read_only="true" type="url"/>
+        <element label="Job ID" max_length="40" name="job_id" type="string"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" dynamic_default_value="3db377bb0ffe0e00497f06ace1050e41" label="Number" max_length="40" name="number" type="string" use_dynamic_default="true"/>
+        <element label="Requested Item" max_length="32" name="requested_item" reference="sc_req_item" type="reference"/>
+        <element choice="1" label="Status" max_length="40" name="status" type="choice">
+            <choice>
+                <element label="Requested" sequence="0" value="requested"/>
+                <element label="Submitted" sequence="1" value="submitted"/>
+                <element label="In Progress" sequence="2" value="In Progress"/>
+                <element label="Running" sequence="3" value="running"/>
+                <element label="Starting" sequence="3" value="starting"/>
+                <element label="Error" sequence="4" value="error"/>
+                <element label="Canceling" sequence="5" value="canceling"/>
+                <element label="Stopping" sequence="6" value="stopping"/>
+                <element label="Canceled" sequence="7" value="canceled"/>
+                <element label="Deployed" sequence="7" value="Deployed"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="SubmitJob Request" max_length="4000" name="submitjob_request" read_only="true" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="SubmitJob Response" max_length="4000" name="submitjob_response" read_only="true" type="string"/>
+        <index name="index">
+            <element name="requested_item"/>
+        </index>
+    </element>
+</database>

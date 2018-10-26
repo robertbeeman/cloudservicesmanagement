@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_rest_message_fn">
+    <sys_rest_message_fn action="INSERT_OR_UPDATE">
+        <authentication_type>basic</authentication_type>
+        <basic_auth_password/>
+        <basic_auth_profile display_value="CloudCenterAdmin">b2aadaed0f4fb20062b6e64be1050e31</basic_auth_profile>
+        <basic_auth_user/>
+        <content>{&#13;
+    "appId": "${appId}",&#13;
+    "appVersion": "${appVersion}",&#13;
+    "name": "${appName}",&#13;
+    "metadatas": [],&#13;
+    "environmentId": "${environmentId}",&#13;
+    "tagIds": [],&#13;
+    "securityProfileIds": [],&#13;
+    "policyIds": ${agingPolicyId},&#13;
+    "preventTermination": false,&#13;
+    "parameters": {&#13;
+        "appParams": [{&#13;
+                "name": "${appParamsName1}",&#13;
+                "value": "${appParamsValue1}"&#13;
+			},&#13;
+            {&#13;
+                "name": "${appParamsName3}",&#13;
+                "value": "${appParamsValue3}"&#13;
+			},&#13;
+            {&#13;
+                "name": "${appParamsName4}",&#13;
+                "value": "${appParamsValue4}"&#13;
+			}&#13;
+],&#13;
+        "cloudParams": {&#13;
+            "cloudRegionId": "${cloudRegionId}",&#13;
+            "accountId": "${accountId}"&#13;
+        }&#13;
+    },&#13;
+    "jobs": [{&#13;
+        "tierId": "${tierId1}",&#13;
+        "policyIds": null,&#13;
+        "tagIds": [],&#13;
+        "securityProfileIds": [],&#13;
+        "parameters": {&#13;
+            "appParams": [{&#13;
+                    "name": "referredJob",&#13;
+                    "value": ""&#13;
+				},&#13;
+                {&#13;
+                    "name": "SSHPreference",&#13;
+                    "value": "NO_PREFERENCE"&#13;
+				}&#13;
+			],&#13;
+            "cloudParams": {&#13;
+                "cloudRegionId": "${cloudRegionId}",&#13;
+                "accountId": "${accountId}",&#13;
+                "volumes": [],&#13;
+                "rootVolumeSize": "0",&#13;
+                "cloudProperties": [{&#13;
+                    "name": "${cloudPropertiesName1}",&#13;
+                    "value": "${cloudPropertiesValue1}"&#13;
+				}, {&#13;
+                    "name": "${cloudPropertiesName2}",&#13;
+                    "value": "${cloudPropertiesValue2}"&#13;
+                                }, {&#13;
+                    "name": "${cloudPropertiesName3}",&#13;
+                    "value": "${cloudPropertiesValue3}"&#13;
+                                }, {&#13;
+                    "name": "${cloudPropertiesName4}",&#13;
+                    "value": "${cloudPropertiesValue4}"&#13;
+                                }, {&#13;
+                    "name": "${cloudPropertiesName5}",&#13;
+                    "value": "${cloudPropertiesValue5}"&#13;
+                                }, {&#13;
+                    "name": "${cloudPropertiesName6}",&#13;
+                    "value": "${cloudPropertiesValue6}"&#13;
+                                }, {&#13;
+                    "name": "${cloudPropertiesName7}",&#13;
+                    "value": "${cloudPropertiesValue7}"&#13;
+                                }, {&#13;
+                    "name": "${cloudPropertiesName8}",&#13;
+                    "value": "${cloudPropertiesValue8}"&#13;
+                                }],&#13;
+                "nics": [{&#13;
+                    "order": 1,&#13;
+                    "${networkName1}": "${networkValue1}",&#13;
+                    "${networkName2}": "${networkValue2}",&#13;
+                    "${networkName3}": "${networkValue3}"&#13;
+				}],&#13;
+                "instance": "${instance}"&#13;
+            }&#13;
+        },&#13;
+        "numNodesToLaunch": ${numNodesToLaunch}&#13;
+	}, {&#13;
+        "tierId": "${tierId2}",&#13;
+        "policyIds": null,&#13;
+        "tagIds": [],&#13;
+        "securityProfileIds": [],&#13;
+        "parameters": {&#13;
+            "appParams": [{&#13;
+                    "name": "referredJob",&#13;
+                    "value": ""&#13;
+				},&#13;
+                {&#13;
+                    "name": "SSHPreference",&#13;
+                    "value": "NO_PREFERENCE"&#13;
+				}&#13;
+			],&#13;
+            "cloudParams": {&#13;
+                "cloudRegionId": "${cloudRegionId}",&#13;
+                "accountId": "${accountId}",&#13;
+                "volumes": [],&#13;
+                "rootVolumeSize": "0",&#13;
+                "cloudProperties": [{&#13;
+                    "name": "${cloudPropertiesName1}",&#13;
+                    "value": "${cloudPropertiesValue1}"&#13;
+				}, {&#13;
+                    "name": "${cloudPropertiesName2}",&#13;
+                    "value": "${cloudPropertiesValue2}"&#13;
+                                }, {&#13;
+                    "name": "${cloudPropertiesName3}",&#13;
+                    "value": "${cloudPropertiesValue3}"&#13;
+                                }, {&#13;
+                    "name": "${cloudPropertiesName4}",&#13;
+                    "value": "${cloudPropertiesValue4}"&#13;
+                                }, {&#13;
+                    "name": "${cloudPropertiesName5}",&#13;
+                    "value": "${cloudPropertiesValue5}"&#13;
+                                }, {&#13;
+                    "name": "${cloudPropertiesName6}",&#13;
+                    "value": "${cloudPropertiesValue6}"&#13;
+                                }, {&#13;
+                    "name": "${cloudPropertiesName7}",&#13;
+                    "value": "${cloudPropertiesValue7}"&#13;
+                                }, {&#13;
+                    "name": "${cloudPropertiesName8}",&#13;
+                    "value": "${cloudPropertiesValue8}"&#13;
+                                }],&#13;
+                "nics": [{&#13;
+                    "order": 1,&#13;
+                    "${networkName1}": "${networkValue1}",&#13;
+                    "${networkName2}": "${networkValue2}",&#13;
+                    "${networkName3}": "${networkValue3}"&#13;
+				}],&#13;
+                "instance": "${lbInstance}"&#13;
+            }&#13;
+        }&#13;
+	}]&#13;
+}</content>
+        <function_name>SubmitJobLB</function_name>
+        <http_method>post</http_method>
+        <lock>false</lock>
+        <oauth2_profile/>
+        <protocol_name/>
+        <qualified_name>CloudCenter [ SubmitJobLB ]</qualified_name>
+        <rest_endpoint>https://ccm.irvinecompany.com:443/v2/jobs</rest_endpoint>
+        <rest_message display_value="CloudCenter">dafa9aad0f4fb20062b6e64be1050e0b</rest_message>
+        <sys_class_name>sys_rest_message_fn</sys_class_name>
+        <sys_created_by>rbeeman</sys_created_by>
+        <sys_created_on>2017-06-29 03:10:01</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>a00dbecb1363fa801c7851522244b08e</sys_id>
+        <sys_mod_count>17</sys_mod_count>
+        <sys_name>SubmitJobLB</sys_name>
+        <sys_package display_value="Cloud Services Management" source="x_thimi_cloud_mgmt">fd43e5bb0f7eba8062b6e64be1050eed</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Cloud Services Management">fd43e5bb0f7eba8062b6e64be1050eed</sys_scope>
+        <sys_update_name>sys_rest_message_fn_a00dbecb1363fa801c7851522244b08e</sys_update_name>
+        <sys_updated_by>rbeeman</sys_updated_by>
+        <sys_updated_on>2018-09-07 21:19:54</sys_updated_on>
+        <use_basic_auth>false</use_basic_auth>
+        <use_mid_server display_value="MIDServer_Orchestration-01-x64">bfddc9e4e113110038a0859d605520fc</use_mid_server>
+        <use_mutual_auth>false</use_mutual_auth>
+    </sys_rest_message_fn>
+</record_update>

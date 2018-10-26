@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="SC Cloud Services Variable Choices" max_length="40" name="x_thimi_cloud_mgmt_cloud_services_choices" type="collection">
+        <element default="true" label="Active" max_length="40" name="active" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Bandwidth" max_length="40" name="bandwidth" type="string"/>
+        <element label="Catalog Item" max_length="32" name="catalog_item" reference="sc_cat_item" type="reference"/>
+        <element display="true" label="Choice" max_length="100" name="choice" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="CPU Cores" max_length="40" name="cpu_cores" type="string"/>
+        <element label="Dependent Value" max_length="120" name="dependent_value" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Description" max_length="1000" name="description" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Drive Space" max_length="40" name="drive_space" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Environment" max_length="40" name="environment" type="string">
+            <choice>
+                <element label="Production" sequence="0" value="Production"/>
+                <element label="Sub-Production" sequence="1" value="Sub-Production"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Memory" max_length="40" name="memory" type="string"/>
+        <element default="0" label="Price" max_length="20" name="price" type="price"/>
+        <element default="0" label="Recurring Price" max_length="20" name="recurring_price" type="price"/>
+        <element label="Sequence" max_length="40" name="sequence" type="integer"/>
+        <element label="Value" max_length="40" name="value" type="string"/>
+        <element label="Variable" max_length="32" name="variable" reference="item_option_new" reference_qual="javascript:'&#9;cat_item=' + current.catalog_item" type="reference" use_dependent_field="true" use_reference_qualifier="advanced"/>
+        <index name="index">
+            <element name="catalog_item"/>
+        </index>
+        <index name="index2">
+            <element name="variable"/>
+        </index>
+    </element>
+</database>

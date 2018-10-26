@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="status" table="x_thimi_cloud_mgmt_cloud_services_job_status" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Requested</label>
+            <language>en</language>
+            <name>x_thimi_cloud_mgmt_cloud_services_job_status</name>
+            <sequence>0</sequence>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2017-11-21 22:25:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>dff3b102dba60f004d181aac0b96195c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2017-11-21 22:25:26</sys_updated_on>
+            <u_notes/>
+            <value>requested</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Submitted</label>
+            <language>en</language>
+            <name>x_thimi_cloud_mgmt_cloud_services_job_status</name>
+            <sequence>1</sequence>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2017-11-21 22:25:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>13f3b102dba60f004d181aac0b96195d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2017-11-21 22:25:26</sys_updated_on>
+            <u_notes/>
+            <value>submitted</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>In Progress</label>
+            <language>en</language>
+            <name>x_thimi_cloud_mgmt_cloud_services_job_status</name>
+            <sequence>2</sequence>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2017-11-21 22:25:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>53f3b102dba60f004d181aac0b96195d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2017-11-21 22:25:26</sys_updated_on>
+            <u_notes/>
+            <value>In Progress</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Running</label>
+            <language>en</language>
+            <name>x_thimi_cloud_mgmt_cloud_services_job_status</name>
+            <sequence>3</sequence>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2017-11-21 22:25:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>93f3b102dba60f004d181aac0b96195d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2017-11-21 22:25:26</sys_updated_on>
+            <u_notes/>
+            <value>running</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Starting</label>
+            <language>en</language>
+            <name>x_thimi_cloud_mgmt_cloud_services_job_status</name>
+            <sequence>3</sequence>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2017-11-21 22:25:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>d3f3b102dba60f004d181aac0b96195d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2017-11-21 22:25:26</sys_updated_on>
+            <u_notes/>
+            <value>starting</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Error</label>
+            <language>en</language>
+            <name>x_thimi_cloud_mgmt_cloud_services_job_status</name>
+            <sequence>4</sequence>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2017-11-21 22:25:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>17f3b102dba60f004d181aac0b96195d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2017-11-21 22:25:26</sys_updated_on>
+            <u_notes/>
+            <value>error</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Canceling</label>
+            <language>en</language>
+            <name>x_thimi_cloud_mgmt_cloud_services_job_status</name>
+            <sequence>5</sequence>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2017-11-21 22:25:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>57f3b102dba60f004d181aac0b96195d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2017-11-21 22:25:26</sys_updated_on>
+            <u_notes/>
+            <value>canceling</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Stopping</label>
+            <language>en</language>
+            <name>x_thimi_cloud_mgmt_cloud_services_job_status</name>
+            <sequence>6</sequence>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2017-11-21 22:25:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>97f3b102dba60f004d181aac0b96195d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2017-11-21 22:25:26</sys_updated_on>
+            <u_notes/>
+            <value>stopping</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Canceled</label>
+            <language>en</language>
+            <name>x_thimi_cloud_mgmt_cloud_services_job_status</name>
+            <sequence>7</sequence>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2017-11-21 22:25:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>d7f3b102dba60f004d181aac0b96195d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2017-11-21 22:25:26</sys_updated_on>
+            <u_notes/>
+            <value>canceled</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Deployed</label>
+            <language>en</language>
+            <name>x_thimi_cloud_mgmt_cloud_services_job_status</name>
+            <sequence>7</sequence>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2017-11-21 22:25:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>1bf3b102dba60f004d181aac0b96195d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2017-11-21 22:25:26</sys_updated_on>
+            <u_notes/>
+            <value>Deployed</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>status</element>
+            <name>x_thimi_cloud_mgmt_cloud_services_job_status</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2017-11-21 22:25:26</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>1ff3b102dba60f004d181aac0b96195d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>status</sys_name>
+            <sys_package display_value="Cloud Services Management" source="x_thimi_cloud_mgmt">fd43e5bb0f7eba8062b6e64be1050eed</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Cloud Services Management">fd43e5bb0f7eba8062b6e64be1050eed</sys_scope>
+            <sys_update_name>sys_choice_x_thimi_cloud_mgmt_cloud_services_job_status_status</sys_update_name>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2017-11-21 22:25:26</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

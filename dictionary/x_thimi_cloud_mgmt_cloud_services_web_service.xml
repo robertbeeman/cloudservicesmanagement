@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Cloud Services Web Service" max_length="40" name="x_thimi_cloud_mgmt_cloud_services_web_service" type="collection">
+        <element choice="1" label="Cloud" max_length="40" name="cloud" type="choice">
+            <choice>
+                <element label="Amazon Web Services" sequence="0" value="Amazon Web Services"/>
+                <element label="Google Cloud Platform" sequence="1" value="Google Cloud Platform"/>
+            </choice>
+        </element>
+        <element label="Description" max_length="4000" name="description" type="string"/>
+        <element label="Name" max_length="40" name="name" type="string"/>
+        <element label="Pricing Link" max_length="1024" name="pricing_link" type="url"/>
+        <element label="Pricing Notes" max_length="4000" name="pricing_notes" type="string"/>
+    </element>
+</database>

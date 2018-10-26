@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Cloud Services Integration Configuration" max_length="40" name="x_thimi_cloud_mgmt_cloud_services_configuration" type="collection">
+        <element choice="1" label="Cloud" max_length="40" name="cloud" type="choice">
+            <choice>
+                <element label="Amazon Web Services" sequence="0" value="Amazon Web Services"/>
+                <element label="Google Cloud Platform" sequence="1" value="Google Cloud Platform"/>
+                <element label="On-Premise" sequence="2" value="On-Premise"/>
+                <element label="N/A" sequence="3" value="N/A"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Cluster" max_length="40" name="cluster" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Cluster DMZ" max_length="40" name="cluster_dmz" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Datastore Cluster" max_length="40" name="datastore_cluster" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Datastore Cluster DMZ" max_length="40" name="datastore_cluster_dmz" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Dependent Value" max_length="40" name="dependent_value" type="string"/>
+        <element label="Dependent Variable" max_length="40" name="dependent_variable" reference="item_option_new" reference_qual="cat_item=3e04fd770fbeba8062b6e64be1050ee3^EQ" reference_qual_condition="cat_item=3e04fd770fbeba8062b6e64be1050ee3^EQ" type="reference"/>
+        <element choice="1" label="Environment" max_length="40" name="environment" type="choice">
+            <choice>
+                <element label="Development" sequence="0" value="Development"/>
+                <element label="Test" sequence="1" value="Test"/>
+                <element label="Production" sequence="2" value="Production"/>
+                <element label="N/A" sequence="3" value="N/A"/>
+            </choice>
+        </element>
+        <element label="Externally Facing" max_length="40" name="externally_facing" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Network Private" max_length="40" name="network_private" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Network Public" max_length="40" name="network_public" type="string"/>
+        <element label="Parameter Name" max_length="40" name="parameter_name" type="string"/>
+        <element label="Parameter Value" max_length="40" name="parameter_value" type="string"/>
+        <index name="index">
+            <element name="dependent_variable"/>
+        </index>
+    </element>
+</database>
