@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="sc_cat_item_guide_items">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_guide_items">
     <sc_cat_item_guide_items action="INSERT_OR_UPDATE">
         <condition>IO:5e1cd2c60a0a3ca101d6e4b09cd2d2b1LIKE9f1c40cc13c9b2401c7851522244b053</condition>
         <guide display_value="Business Application Access">5492d2800a0a3ca100dba29f56af7468</guide>

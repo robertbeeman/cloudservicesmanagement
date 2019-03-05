@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="sc_cat_item_category">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
     <sc_cat_item_category action="INSERT_OR_UPDATE">
         <sc_cat_item display_value="Cloud Server or Service">3e04fd770fbeba8062b6e64be1050ee3</sc_cat_item>
         <sc_category display_value="IT Services">58e9e1c713afba801c7851522244b073</sc_category>

@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="sc_cat_item">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item">
     <sc_cat_item action="INSERT_OR_UPDATE">
         <active>true</active>
         <availability>on_desktop</availability>
@@ -11,9 +10,11 @@
         <delivery_plan_script/>
         <delivery_time>1970-01-03 00:00:00</delivery_time>
         <description><![CDATA[<p><strong><span style="font-size: 11pt; color: #000000; font-weight: 400;">Fill out this form to order a server(s) from&nbsp;Google Cloud Platform (GCP) or on-premise (data center), or service(s) from either Google Cloud Platform (GCP)&nbsp;or Amazon Web Services (AWS). Each unique server/service will need to be ordered one at a time.</span></strong></p>
-<p><em><strong><span style="font-size: 11pt; color: #ff0000; font-weight: 400;">NOTE: The person responsible for the budget, either Project Manager or Line Manager, should be filling out the form&nbsp;as the the Clarity budget specified will be charged .</span></strong></em></p>]]></description>
+<p><em><strong><span style="font-size: 11pt; color: #ff0000; font-weight: 400;"><span data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;NOTE: The person responsible for the budget, either Project Manager or Line Manager, should be filling out the form as the Clarity budget specified will be charged .&quot;}" data-sheets-userformat="{&quot;2&quot;:769,&quot;3&quot;:{&quot;1&quot;:0},&quot;11&quot;:4,&quot;12&quot;:0}">NOTE: The person responsible for the budget, either Project Manager or Line Manager, should be filling out the form as the Clarity budget specified will be charged.</span></span></strong></em></p>]]></description>
         <entitlement_script/>
+        <flow_designer_flow/>
         <group/>
+        <hide_sp>false</hide_sp>
         <icon/>
         <ignore_price>false</ignore_price>
         <image/>
@@ -51,7 +52,7 @@
         <sys_created_on>2017-05-24 23:03:49</sys_created_on>
         <sys_customer_update>true</sys_customer_update>
         <sys_id>3e04fd770fbeba8062b6e64be1050ee3</sys_id>
-        <sys_mod_count>21</sys_mod_count>
+        <sys_mod_count>24</sys_mod_count>
         <sys_name>Cloud Server or Service</sys_name>
         <sys_package display_value="Cloud Services Management" source="x_thimi_cloud_mgmt">fd43e5bb0f7eba8062b6e64be1050eed</sys_package>
         <sys_policy/>
@@ -59,7 +60,7 @@
         <sys_scope display_value="Cloud Services Management">fd43e5bb0f7eba8062b6e64be1050eed</sys_scope>
         <sys_update_name>sc_cat_item_3e04fd770fbeba8062b6e64be1050ee3</sys_update_name>
         <sys_updated_by>rbeeman</sys_updated_by>
-        <sys_updated_on>2018-09-12 21:41:57</sys_updated_on>
+        <sys_updated_on>2019-02-27 23:20:38</sys_updated_on>
         <template/>
         <type>item</type>
         <u_configuration_item/>

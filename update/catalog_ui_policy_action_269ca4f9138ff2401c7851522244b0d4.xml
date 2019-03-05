@@ -1,11 +1,12 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="catalog_ui_policy_action">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
     <catalog_ui_policy_action action="INSERT_OR_UPDATE">
         <catalog_item display_value="Cloud Server or Service">3e04fd770fbeba8062b6e64be1050ee3</catalog_item>
         <catalog_variable>IO:1daf6f6d13cbf2401c7851522244b07a</catalog_variable>
+        <cleared>false</cleared>
         <disabled>ignore</disabled>
         <field/>
         <mandatory>false</mandatory>
+        <order>100</order>
         <sys_class_name>catalog_ui_policy_action</sys_class_name>
         <sys_created_by>rbeeman</sys_created_by>
         <sys_created_on>2017-05-30 22:55:30</sys_created_on>

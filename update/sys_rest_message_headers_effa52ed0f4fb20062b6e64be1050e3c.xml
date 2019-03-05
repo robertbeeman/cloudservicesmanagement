@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="sys_rest_message_headers">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_headers">
     <sys_rest_message_headers action="INSERT_OR_UPDATE">
         <name>Accept</name>
         <rest_message display_value="CloudCenter">dafa9aad0f4fb20062b6e64be1050e0b</rest_message>

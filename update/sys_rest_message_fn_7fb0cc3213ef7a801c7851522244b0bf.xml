@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="sys_rest_message_fn">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn">
     <sys_rest_message_fn action="INSERT_OR_UPDATE">
         <authentication_type>inherit_from_parent</authentication_type>
         <basic_auth_password/>
@@ -26,8 +25,8 @@
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Cloud Services Management">fd43e5bb0f7eba8062b6e64be1050eed</sys_scope>
         <sys_update_name>sys_rest_message_fn_7fb0cc3213ef7a801c7851522244b0bf</sys_update_name>
-        <sys_updated_by>rbeeman</sys_updated_by>
-        <sys_updated_on>2018-02-14 18:37:10</sys_updated_on>
+        <sys_updated_by>isabellee</sys_updated_by>
+        <sys_updated_on>2018-11-06 16:13:42</sys_updated_on>
         <use_basic_auth>false</use_basic_auth>
         <use_mid_server display_value="MIDServer_Orchestration-01-x64">bfddc9e4e113110038a0859d605520fc</use_mid_server>
         <use_mutual_auth>false</use_mutual_auth>

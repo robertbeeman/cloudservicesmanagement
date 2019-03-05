@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<database>
+<?xml version="1.0" encoding="UTF-8"?><database>
     <element audit="true" extends="cmdb_ci_lb" label="Cisco GSS" max_length="40" name="cmdb_ci_lb_cisco_gss" type="collection">
         <element attributes="edge_encryption_enabled=true" choice="1" label="Cloud mgmt cloud" max_length="40" name="x_thimi_cloud_mgmt_cloud" type="string">
             <choice/>

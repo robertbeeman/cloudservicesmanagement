@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="INSERT_OR_UPDATE">
+        <catalog_item display_value="Cloud Server or Service">3e04fd770fbeba8062b6e64be1050ee3</catalog_item>
+        <catalog_variable>IO:fe54387113cff2401c7851522244b09f</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field/>
+        <mandatory>false</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>rbeeman</sys_created_by>
+        <sys_created_on>2019-02-13 23:54:53</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>294a92220f23a78062b6e64be1050e0f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>backup_required</sys_name>
+        <sys_package display_value="Cloud Services Management" source="x_thimi_cloud_mgmt">fd43e5bb0f7eba8062b6e64be1050eed</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Cloud Services Management">fd43e5bb0f7eba8062b6e64be1050eed</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_294a92220f23a78062b6e64be1050e0f</sys_update_name>
+        <sys_updated_by>rbeeman</sys_updated_by>
+        <sys_updated_on>2019-02-13 23:54:53</sys_updated_on>
+        <table/>
+        <ui_policy display_value="Environment Not Selected">022a12220f23a78062b6e64be1050e1f</ui_policy>
+        <variable>backup_required</variable>
+        <variable_set/>
+        <visible>false</visible>
+    </catalog_ui_policy_action>
+</record_update>

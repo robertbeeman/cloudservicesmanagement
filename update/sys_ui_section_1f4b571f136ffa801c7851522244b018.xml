@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update>
+<?xml version="1.0" encoding="UTF-8"?><record_update>
     <sys_ui_section caption="" section_id="1f4b571f136ffa801c7851522244b018" sys_domain="global" table="x_thimi_cloud_mgmt_cloud_services_web_service" version="3" view="sys_popup">
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.begin_split</element>

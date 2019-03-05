@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="sys_rest_message_fn_parameters">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn_parameters">
     <sys_rest_message_fn_parameters action="INSERT_OR_UPDATE">
         <name>appParamsName3</name>
         <rest_message_function display_value="SubmitJobFW">2cca79460fc8c70062b6e64be1050ece</rest_message_function>

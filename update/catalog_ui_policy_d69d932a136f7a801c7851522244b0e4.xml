@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update sys_domain="global" table="catalog_ui_policy">
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="catalog_ui_policy">
     <catalog_ui_policy action="INSERT_OR_UPDATE">
         <active>true</active>
         <applies_catalog>true</applies_catalog>
@@ -13,6 +12,7 @@
         <description/>
         <global>true</global>
         <inherit>false</inherit>
+        <isolate_script>false</isolate_script>
         <model_id/>
         <model_table/>
         <on_load>true</on_load>
@@ -23,7 +23,7 @@
 	g_form.setValue('end_date', '');
 }]]></script_false>
         <script_true><![CDATA[function onCondition() {
-
+	g_form.setValue('backup_required', '');
 }]]></script_true>
         <set_values/>
         <short_description>Environment Non-Production</short_description>
@@ -33,7 +33,7 @@
         <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_id>d69d932a136f7a801c7851522244b0e4</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>Environment Non-Production</sys_name>
         <sys_overrides/>
         <sys_package display_value="Cloud Services Management" source="x_thimi_cloud_mgmt">fd43e5bb0f7eba8062b6e64be1050eed</sys_package>
@@ -42,7 +42,7 @@
         <sys_scope display_value="Cloud Services Management">fd43e5bb0f7eba8062b6e64be1050eed</sys_scope>
         <sys_update_name>catalog_ui_policy_d69d932a136f7a801c7851522244b0e4</sys_update_name>
         <sys_updated_by>rbeeman</sys_updated_by>
-        <sys_updated_on>2017-06-27 16:16:40</sys_updated_on>
+        <sys_updated_on>2019-02-13 23:24:39</sys_updated_on>
         <table/>
         <ui_type>0</ui_type>
         <variable_set/>

@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="item_option_new">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="item_option_new">
     <item_option_new action="INSERT_OR_UPDATE">
         <active>true</active>
         <attributes/>
@@ -41,7 +40,7 @@
         <order>1400</order>
         <price_if_checked>0</price_if_checked>
         <pricing_implications>false</pricing_implications>
-        <question_text>Project Code</question_text>
+        <question_text>Clarity Project Number</question_text>
         <read_roles/>
         <rec_lookup_price/>
         <rec_price_if_checked>0</rec_price_if_checked>
@@ -61,15 +60,15 @@
         <sys_created_on>2017-05-26 17:51:01</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>aa600b9c138b32401c7851522244b036</sys_id>
-        <sys_mod_count>10</sys_mod_count>
-        <sys_name>Project Code</sys_name>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_name>Clarity Project Number</sys_name>
         <sys_package display_value="Cloud Services Management" source="x_thimi_cloud_mgmt">fd43e5bb0f7eba8062b6e64be1050eed</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Cloud Services Management">fd43e5bb0f7eba8062b6e64be1050eed</sys_scope>
         <sys_update_name>item_option_new_aa600b9c138b32401c7851522244b036</sys_update_name>
         <sys_updated_by>rbeeman</sys_updated_by>
-        <sys_updated_on>2017-06-22 21:42:26</sys_updated_on>
+        <sys_updated_on>2019-02-23 00:19:14</sys_updated_on>
         <table/>
         <tooltip>6-Digit Code</tooltip>
         <type>6</type>

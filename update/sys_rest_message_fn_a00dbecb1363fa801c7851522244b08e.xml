@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="sys_rest_message_fn">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn">
     <sys_rest_message_fn action="INSERT_OR_UPDATE">
         <authentication_type>basic</authentication_type>
         <basic_auth_password/>
@@ -19,6 +18,10 @@
         "appParams": [{&#13;
                 "name": "${appParamsName1}",&#13;
                 "value": "${appParamsValue1}"&#13;
+			},&#13;
+            {&#13;
+                "name": "${appParamsName2}",&#13;
+                "value": "${appParamsValue2}"&#13;
 			},&#13;
             {&#13;
                 "name": "${appParamsName3}",&#13;
@@ -158,15 +161,15 @@
         <sys_created_on>2017-06-29 03:10:01</sys_created_on>
         <sys_customer_update>true</sys_customer_update>
         <sys_id>a00dbecb1363fa801c7851522244b08e</sys_id>
-        <sys_mod_count>17</sys_mod_count>
+        <sys_mod_count>16</sys_mod_count>
         <sys_name>SubmitJobLB</sys_name>
         <sys_package display_value="Cloud Services Management" source="x_thimi_cloud_mgmt">fd43e5bb0f7eba8062b6e64be1050eed</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Cloud Services Management">fd43e5bb0f7eba8062b6e64be1050eed</sys_scope>
         <sys_update_name>sys_rest_message_fn_a00dbecb1363fa801c7851522244b08e</sys_update_name>
-        <sys_updated_by>rbeeman</sys_updated_by>
-        <sys_updated_on>2018-09-07 21:19:54</sys_updated_on>
+        <sys_updated_by>isabellee</sys_updated_by>
+        <sys_updated_on>2018-11-06 16:14:03</sys_updated_on>
         <use_basic_auth>false</use_basic_auth>
         <use_mid_server display_value="MIDServer_Orchestration-01-x64">bfddc9e4e113110038a0859d605520fc</use_mid_server>
         <use_mutual_auth>false</use_mutual_auth>

@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<database>
+<?xml version="1.0" encoding="UTF-8"?><database>
     <element label="Cloud Services Server Naming" max_length="40" name="x_thimi_cloud_mgmt_cloud_services_server_naming" type="collection">
         <element display="true" hint="Must be between 3 to 7 characters" label="Application Function" max_length="7" name="appl_function" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Description" max_length="100" name="description" type="string"/>

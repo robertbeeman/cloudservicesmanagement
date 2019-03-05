@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<database>
+<?xml version="1.0" encoding="UTF-8"?><database>
     <element label="SC Cloud Services Variable Choices" max_length="40" name="x_thimi_cloud_mgmt_cloud_services_choices" type="collection">
         <element default="true" label="Active" max_length="40" name="active" type="boolean"/>
         <element attributes="edge_encryption_enabled=true" label="Bandwidth" max_length="40" name="bandwidth" type="string"/>
@@ -11,8 +10,8 @@
         <element attributes="edge_encryption_enabled=true" label="Drive Space" max_length="40" name="drive_space" type="string"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Environment" max_length="40" name="environment" type="string">
             <choice>
-                <element label="Production" sequence="0" value="Production"/>
-                <element label="Sub-Production" sequence="1" value="Sub-Production"/>
+                <element inactive_on_update="false" label="Production" sequence="0" value="Production"/>
+                <element inactive_on_update="false" label="Sub-Production" sequence="1" value="Sub-Production"/>
             </choice>
         </element>
         <element attributes="edge_encryption_enabled=true" label="Memory" max_length="40" name="memory" type="string"/>
