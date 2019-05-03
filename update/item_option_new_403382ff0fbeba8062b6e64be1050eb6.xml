@@ -9,7 +9,7 @@
         <choice_table/>
         <create_roles/>
         <default_html_value/>
-        <default_value/>
+        <default_value>Servers</default_value>
         <delete_roles/>
         <delivery_plan/>
         <description/>
@@ -60,7 +60,7 @@
         <sys_created_on>2017-05-25 00:08:24</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>403382ff0fbeba8062b6e64be1050eb6</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_name>Do you need Servers or Cloud Provided Services?</sys_name>
         <sys_package display_value="Cloud Services Management" source="x_thimi_cloud_mgmt">fd43e5bb0f7eba8062b6e64be1050eed</sys_package>
         <sys_policy/>
@@ -68,7 +68,7 @@
         <sys_scope display_value="Cloud Services Management">fd43e5bb0f7eba8062b6e64be1050eed</sys_scope>
         <sys_update_name>item_option_new_403382ff0fbeba8062b6e64be1050eb6</sys_update_name>
         <sys_updated_by>rbeeman</sys_updated_by>
-        <sys_updated_on>2017-06-15 18:32:37</sys_updated_on>
+        <sys_updated_on>2019-04-16 23:17:28</sys_updated_on>
         <table/>
         <tooltip/>
         <type>3</type>

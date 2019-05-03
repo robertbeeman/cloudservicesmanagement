@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element audit="true" extends="cmdb_ci_vcenter_server_obj" label="ESX Server" max_length="40" name="cmdb_ci_esx_server" type="collection">
+    <element audit="true" extends="cmdb_ci_vcenter_server_obj" label="ESX Server" max_length="40" name="cmdb_ci_esx_server" sizeclass="87" type="collection">
         <element attributes="edge_encryption_enabled=true" choice="1" label="Cloud mgmt cloud" max_length="40" name="x_thimi_cloud_mgmt_cloud" type="string">
             <choice/>
         </element>

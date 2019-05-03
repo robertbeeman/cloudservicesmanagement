@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element audit="true" extends="cmdb_ci_appl_sap" label="SAP CI Application" max_length="40" name="cmdb_ci_appl_sap_ci" type="collection">
+    <element audit="true" extends="cmdb_ci_appl_sap" label="SAP CI Application" max_length="40" name="cmdb_ci_appl_sap_ci" sizeclass="12" type="collection">
         <element label="Cloud mgmt naming convention" max_length="32" name="x_thimi_cloud_mgmt_naming_convention" reference="x_thimi_cloud_mgmt_cloud_services_server_naming" type="reference"/>
     </element>
 </database>

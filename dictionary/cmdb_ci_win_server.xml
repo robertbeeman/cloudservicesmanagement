@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element audit="true" extends="cmdb_ci_server" label="Windows Server" max_length="40" name="cmdb_ci_win_server" sizeclass="760" type="collection">
+    <element audit="true" extends="cmdb_ci_server" label="Windows Server" max_length="40" name="cmdb_ci_win_server" sizeclass="1170" type="collection">
         <element attributes="edge_encryption_enabled=true" choice="1" label="Cloud mgmt cloud" max_length="40" name="x_thimi_cloud_mgmt_cloud" type="string">
             <choice/>
         </element>
