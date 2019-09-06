@@ -16,7 +16,9 @@
         <digest_from/>
         <digest_html/>
         <digest_reply_to/>
-        <digest_separator_html><![CDATA[<br><hr><br>]]></digest_separator_html>
+        <digest_separator_html><![CDATA[<p>&nbsp;</p>
+<hr />
+<p>&nbsp;</p>]]></digest_separator_html>
         <digest_separator_text><![CDATA[\n--------------------------------------------------------------------------------\n]]></digest_separator_text>
         <digest_subject/>
         <digest_template/>
@@ -49,8 +51,8 @@
         <omit_watermark>false</omit_watermark>
         <order/>
         <push_message_only>false</push_message_only>
-        <recipient_fields/>
-        <recipient_groups name="Cloud Catalog Item Approvers">887e300f0f63f24062b6e64be1050eb3</recipient_groups>
+        <recipient_fields>approver</recipient_fields>
+        <recipient_groups/>
         <recipient_users/>
         <reply_to/>
         <send_self>true</send_self>
@@ -64,7 +66,7 @@
         <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_id>bba93fea0f2bb24062b6e64be1050eb9</sys_id>
-        <sys_mod_count>14</sys_mod_count>
+        <sys_mod_count>15</sys_mod_count>
         <sys_name>Cloud Services Approval Request</sys_name>
         <sys_overrides/>
         <sys_package display_value="Cloud Services Management" source="x_thimi_cloud_mgmt">fd43e5bb0f7eba8062b6e64be1050eed</sys_package>
@@ -72,8 +74,8 @@
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Cloud Services Management">fd43e5bb0f7eba8062b6e64be1050eed</sys_scope>
         <sys_update_name>sysevent_email_action_bba93fea0f2bb24062b6e64be1050eb9</sys_update_name>
-        <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2017-11-27 03:35:37</sys_updated_on>
+        <sys_updated_by>rbeeman</sys_updated_by>
+        <sys_updated_on>2019-06-13 17:35:08</sys_updated_on>
         <sys_version>2</sys_version>
         <template/>
         <type>email</type>

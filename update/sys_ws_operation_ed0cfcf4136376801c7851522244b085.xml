@@ -16,6 +16,7 @@
 	
 	if (jobId && status){
 		
+		// gs.info('CloudCenter - Job ID: ' + jobId + ' - Status: ' + status);
 		var js = new GlideRecord('x_thimi_cloud_mgmt_cloud_services_job_status');
 		js.addQuery('job_id', jobId);
 		js.query();
@@ -45,7 +46,7 @@
         <sys_created_on>2017-06-21 18:00:24</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>ed0cfcf4136376801c7851522244b085</sys_id>
-        <sys_mod_count>28</sys_mod_count>
+        <sys_mod_count>30</sys_mod_count>
         <sys_name>Job Status</sys_name>
         <sys_package display_value="Cloud Services Management" source="x_thimi_cloud_mgmt">fd43e5bb0f7eba8062b6e64be1050eed</sys_package>
         <sys_policy/>
@@ -53,7 +54,7 @@
         <sys_scope display_value="Cloud Services Management">fd43e5bb0f7eba8062b6e64be1050eed</sys_scope>
         <sys_update_name>sys_ws_operation_ed0cfcf4136376801c7851522244b085</sys_update_name>
         <sys_updated_by>rbeeman</sys_updated_by>
-        <sys_updated_on>2017-06-22 17:48:53</sys_updated_on>
+        <sys_updated_on>2019-09-06 20:30:39</sys_updated_on>
         <web_service_definition display_value="CloudCenter">1dc8b474136376801c7851522244b029</web_service_definition>
         <web_service_version/>
     </sys_ws_operation>

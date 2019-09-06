@@ -6,7 +6,7 @@
         <applies_sc_task>false</applies_sc_task>
         <applies_target_record>false</applies_target_record>
         <applies_to>item</applies_to>
-        <catalog_conditions>IO:b390c76e13c3b6401c7851522244b0ae=02a8bcc913286b401c7851522244b0f2^EQ</catalog_conditions>
+        <catalog_conditions>IO:b390c76e13c3b6401c7851522244b0ae=5b43fe53132ffa801c7851522244b059^EQ</catalog_conditions>
         <catalog_item display_value="Cloud Server or Service">3e04fd770fbeba8062b6e64be1050ee3</catalog_item>
         <conditions/>
         <description/>
@@ -39,7 +39,7 @@
         <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_id>c72bf6d7132ffa801c7851522244b0dc</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name>Application is POC</sys_name>
         <sys_overrides/>
         <sys_package display_value="Cloud Services Management" source="x_thimi_cloud_mgmt">fd43e5bb0f7eba8062b6e64be1050eed</sys_package>
@@ -48,7 +48,7 @@
         <sys_scope display_value="Cloud Services Management">fd43e5bb0f7eba8062b6e64be1050eed</sys_scope>
         <sys_update_name>catalog_ui_policy_c72bf6d7132ffa801c7851522244b0dc</sys_update_name>
         <sys_updated_by>rbeeman</sys_updated_by>
-        <sys_updated_on>2018-09-12 21:50:22</sys_updated_on>
+        <sys_updated_on>2019-06-13 16:39:28</sys_updated_on>
         <table/>
         <ui_type>0</ui_type>
         <variable_set/>

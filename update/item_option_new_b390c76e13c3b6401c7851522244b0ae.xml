@@ -21,7 +21,7 @@
         <field/>
         <global>false</global>
         <help_tag>More information</help_tag>
-        <help_text>Note: If application is not on the list, please see the Cloud Services Team. If you are trying out the application, choose P.O.C.</help_text>
+        <help_text>Note: If application is not on the list, please see the Cloud Services Team. If you are trying out the application, choose Proof of Concept.</help_text>
         <include_none>false</include_none>
         <instructions/>
         <layout>normal</layout>
@@ -46,12 +46,9 @@
         <rec_price_if_checked>0</rec_price_if_checked>
         <record/>
         <record_producer_table/>
-        <reference>cmdb_ci_appl</reference>
-        <reference_qual>name!=NULL^x_thimi_cloud_mgmt_naming_convention!=NULL^ORDERBYname</reference_qual>
-        <reference_qual_condition table="cmdb_ci_appl">name!=NULL^x_thimi_cloud_mgmt_naming_convention!=NULL^EQ^ORDERBYname<item endquery="false" field="name" goto="false" newquery="false" operator="!=" or="false" value="NULL"/>
-            <item endquery="false" field="x_thimi_cloud_mgmt_naming_convention" goto="false" newquery="false" operator="!=" or="false" value="NULL"/>
-            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
-            <item endquery="false" field="" goto="false" newquery="false" operator="ORDERBY" or="false" value="name"/>
+        <reference>x_thimi_cloud_mgmt_cloud_services_server_naming</reference>
+        <reference_qual/>
+        <reference_qual_condition table="x_thimi_cloud_mgmt_cloud_services_server_naming">^ORDERBYappl_function<item endquery="false" field="" goto="false" newquery="false" operator="ORDERBY" or="false" value="appl_function"/>
         </reference_qual_condition>
         <scale_max>5</scale_max>
         <scale_min>0</scale_min>
@@ -64,7 +61,7 @@
         <sys_created_on>2017-06-02 17:38:59</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>b390c76e13c3b6401c7851522244b0ae</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_name>Application</sys_name>
         <sys_package display_value="Cloud Services Management" source="x_thimi_cloud_mgmt">fd43e5bb0f7eba8062b6e64be1050eed</sys_package>
         <sys_policy/>
@@ -72,7 +69,7 @@
         <sys_scope display_value="Cloud Services Management">fd43e5bb0f7eba8062b6e64be1050eed</sys_scope>
         <sys_update_name>item_option_new_b390c76e13c3b6401c7851522244b0ae</sys_update_name>
         <sys_updated_by>rbeeman</sys_updated_by>
-        <sys_updated_on>2019-02-13 22:43:30</sys_updated_on>
+        <sys_updated_on>2019-06-13 16:41:27</sys_updated_on>
         <table/>
         <tooltip/>
         <type>8</type>
