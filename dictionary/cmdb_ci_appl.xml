@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element audit="true" extends="cmdb_ci" label="Application" max_length="40" name="cmdb_ci_appl" sizeclass="36" type="collection">
+    <element audit="true" extends="cmdb_ci" label="Application" max_length="40" name="cmdb_ci_appl" sizeclass="29" type="collection">
         <element label="Naming Convention" max_length="32" name="x_thimi_cloud_mgmt_naming_convention" reference="x_thimi_cloud_mgmt_cloud_services_server_naming" type="reference"/>
     </element>
 </database>

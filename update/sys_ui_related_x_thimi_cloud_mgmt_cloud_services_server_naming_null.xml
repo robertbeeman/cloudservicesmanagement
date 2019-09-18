@@ -2,17 +2,17 @@
     <sys_ui_related sys_domain="global" table="x_thimi_cloud_mgmt_cloud_services_server_naming" version="2" view="">
         <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
             <filter/>
-            <list_id display_value="Cloud Services Server Naming - Default view" name="x_thimi_cloud_mgmt_cloud_services_server_naming" related_list="NULL" sys_domain="global" view="Default view">95142b1213277a801c7851522244b051</list_id>
+            <list_id display_value="Cloud Services Server Naming - Default view" name="x_thimi_cloud_mgmt_cloud_services_server_naming" related_list="NULL" sys_domain="global" view="Default view">529e994cdb48cc100d231e13399619f5</list_id>
             <order_by/>
             <position>0</position>
-            <related_list>cmdb_ci_appl.x_thimi_cloud_mgmt_naming_convention</related_list>
+            <related_list/>
             <sys_class_name>sys_ui_related_list_entry</sys_class_name>
             <sys_created_by>rbeeman</sys_created_by>
-            <sys_created_on>2017-06-26 22:05:18</sys_created_on>
-            <sys_id>55142b1213277a801c7851522244b052</sys_id>
+            <sys_created_on>2019-09-17 17:51:45</sys_created_on>
+            <sys_id>5a9e994cdb48cc100d231e13399619f5</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>rbeeman</sys_updated_by>
-            <sys_updated_on>2017-06-26 22:05:18</sys_updated_on>
+            <sys_updated_on>2019-09-17 17:51:45</sys_updated_on>
         </sys_ui_related_list_entry>
         <sys_ui_related_list action="INSERT_OR_UPDATE">
             <calculated_name>Cloud Services Server Naming - Default view</calculated_name>
@@ -23,10 +23,10 @@
             <related_list/>
             <sys_class_name>sys_ui_related_list</sys_class_name>
             <sys_created_by>rbeeman</sys_created_by>
-            <sys_created_on>2017-06-26 22:05:18</sys_created_on>
+            <sys_created_on>2019-09-17 17:51:45</sys_created_on>
             <sys_customer_update>false</sys_customer_update>
             <sys_domain>global</sys_domain>
-            <sys_id>95142b1213277a801c7851522244b051</sys_id>
+            <sys_id>529e994cdb48cc100d231e13399619f5</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>Cloud Services Server Naming - Default view</sys_name>
             <sys_package display_value="Cloud Services Management" source="x_thimi_cloud_mgmt">fd43e5bb0f7eba8062b6e64be1050eed</sys_package>
@@ -35,7 +35,7 @@
             <sys_scope display_value="Cloud Services Management">fd43e5bb0f7eba8062b6e64be1050eed</sys_scope>
             <sys_update_name>sys_ui_related_x_thimi_cloud_mgmt_cloud_services_server_naming_null</sys_update_name>
             <sys_updated_by>rbeeman</sys_updated_by>
-            <sys_updated_on>2017-06-26 22:05:18</sys_updated_on>
+            <sys_updated_on>2019-09-17 17:51:45</sys_updated_on>
             <sys_user/>
             <view display_value="Default view" name="NULL">Default view</view>
             <view_name/>

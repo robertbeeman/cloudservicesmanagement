@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element audit="true" extends="cmdb_ci_computer" label="Server" max_length="40" name="cmdb_ci_server" sizeclass="2" type="collection">
+    <element audit="true" extends="cmdb_ci_computer" label="Server" max_length="40" name="cmdb_ci_server" sizeclass="3" type="collection">
         <element attributes="edge_encryption_enabled=true" choice="1" label="Cloud" max_length="40" name="x_thimi_cloud_mgmt_cloud" type="string">
             <choice>
                 <element inactive_on_update="false" label="Amazon Web Services" sequence="0" value="Amazon Web Services"/>
